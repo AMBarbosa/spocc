@@ -108,3 +108,11 @@ datemap <- list(gbif = 'eventDate', bison = 'date', inat = 'observed_on',
 keymap <- list(gbif = "key", bison = "occurrenceID", inat = "id",
                ebird = "locID", vertnet = "occurrenceid", idigbio = "uuid",
                obis = "id", ala = "uuid")
+
+occstatmap <- list(gbif = "occurrenceStatus", bison = "", inat = "",
+               ebird = "", vertnet = "occurrencestatus", idigbio = "",
+               obis = "occurrenceStatus", ala = "")
+
+uncertmap <- list(gbif = "coordinateUncertaintyInMeters", bison = "coordinateUncertaintyInMeters", inat = "public_positional_accuracy",
+               ebird = "", vertnet = "coordinateuncertaintyinmeters", idigbio = "coordinateuncertainty",
+               obis = "coordinateUncertaintyInMeters", ala = "coordinateUncertaintyInMeters")
